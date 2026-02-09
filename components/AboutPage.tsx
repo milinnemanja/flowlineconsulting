@@ -46,7 +46,7 @@ const AboutPage: React.FC = () => {
                 <div className="relative">
                     <div className="absolute -inset-4 bg-emerald-500/10 blur-xl rounded-full"></div>
                     <img 
-                        src="https://picsum.photos/400/500?grayscale" 
+                        src="/images/avatar-image.png" 
                         alt="Nemanja Milin" 
                         className="w-full aspect-[4/5] object-cover rounded-[2rem] border-4 border-white shadow-2xl relative z-10" 
                     />

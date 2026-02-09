@@ -36,7 +36,7 @@ const Philosophy: React.FC = () => {
             "Cilj mi je da softver ne bude trošak, već alat koji <span className="text-emerald-600 font-bold">aktivno doprinosi poslovnom uspehu</span>."
           </p>
           <div className="flex items-center space-x-4">
-            <img src="https://picsum.photos/100/100?grayscale" alt="Avatar" className="w-16 h-16 rounded-full border-2 border-emerald-500 shadow-md" />
+            <img src="/images/avatar-image.png" alt="Avatar" className="w-16 h-16 rounded-full border-2 border-emerald-500 shadow-md" />
             <div>
               <p className="font-bold text-slate-900 text-lg">Nemanja Milin</p>
               <p className="text-slate-400 font-medium">Web Developer & System Administrator</p>
