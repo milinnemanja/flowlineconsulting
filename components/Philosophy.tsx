@@ -42,7 +42,7 @@ const Philosophy: React.FC = () => {
               className="w-16 h-16 rounded-full border-2 border-emerald-500 shadow-md object-cover bg-slate-100" 
               onError={(e) => {
                 const target = e.target as HTMLImageElement;
-                target.src = "https://picsum.photos/100/100?grayscale";
+                target.src = "https://avatars.githubusercontent.com/u/117310934?v=4";
               }}
             />
             <div>
