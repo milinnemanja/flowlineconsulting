@@ -15,10 +15,11 @@ const benefits = [
 
 const Benefits: React.FC<BenefitsProps> = ({ onWhySaasClick }) => {
   return (
-    <section id="zasto-saas" className="py-24">
-      <div className="flex flex-col md:flex-row gap-12 items-start">
-        <div className="md:w-1/3 sticky top-24 reveal">
-          <h2 className="text-4xl font-bold mb-6 text-slate-900">Efikasna Organizacija</h2>
+    <section id="zasto-saas" className="py-24 relative overflow-hidden">
+      <div className="flex flex-col md:flex-row gap-12 lg:gap-20 items-start">
+        {/* Left column - Heading & Description */}
+        <div className="w-full md:w-1/3 md:sticky md:top-32 reveal mb-8 md:mb-0">
+          <h2 className="text-3xl md:text-4xl font-bold mb-6 text-slate-900 leading-tight">Efikasna Organizacija</h2>
           <p className="text-slate-500 text-lg leading-relaxed mb-6">
             SaaS rešenja nisu samo softver u oblaku — to je kičma vašeg organizacionog procesa koja omogućava sektorima da dišu istim ritmom. 
           </p>
@@ -36,9 +37,10 @@ const Benefits: React.FC<BenefitsProps> = ({ onWhySaasClick }) => {
           )}
         </div>
         
-        <div className="md:w-2/3 grid grid-cols-1 sm:grid-cols-2 gap-4">
+        {/* Right column - Cards Grid */}
+        <div className="w-full md:w-2/3 grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-6">
           {benefits.map((benefit, i) => (
-            <div key={i} className={`reveal gradient-border p-8 group delay-${(i + 1) * 100} border border-slate-50`}>
+            <div key={i} className={`reveal gradient-border p-8 group delay-${(i + 1) * 100} border border-slate-50 bg-white`}>
               <div className="w-12 h-12 rounded-xl bg-emerald-50 flex items-center justify-center mb-6 text-emerald-600 group-hover:bg-emerald-600 group-hover:text-white transition-all duration-300 shadow-sm">
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"></path>

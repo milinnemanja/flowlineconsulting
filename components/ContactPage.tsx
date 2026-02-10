@@ -147,14 +147,15 @@ const ContactPage: React.FC = () => {
           <p className="text-slate-500 text-sm">nemanjamilin.contact@gmail.com</p>
         </div>
         <div className="p-6">
-          <div className="w-12 h-12 bg-emerald-50 text-emerald-600 rounded-xl flex items-center justify-center mx-auto mb-4">
-            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-            </svg>
+          <div className="w-12 h-12 bg-emerald-50 text-emerald-600 rounded-xl flex items-center justify-center mx-auto mb-4 hover:scale-110 transition-transform cursor-pointer">
+             <a href="https://www.linkedin.com/in/nemanja-milin/" target="_blank" rel="noopener noreferrer">
+              <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+              </svg>
+            </a>
           </div>
-          <h4 className="font-bold text-slate-900 mb-1">Lokacija</h4>
-          <p className="text-slate-500 text-sm">Zrenjanin, Srbija</p>
+          <h4 className="font-bold text-slate-900 mb-1">LinkedIn</h4>
+          <p className="text-slate-500 text-sm">Povežimo se profesionalno</p>
         </div>
         <div className="p-6">
           <div className="w-12 h-12 bg-emerald-50 text-emerald-600 rounded-xl flex items-center justify-center mx-auto mb-4">
