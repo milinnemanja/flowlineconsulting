@@ -21,7 +21,7 @@ const Benefits: React.FC<BenefitsProps> = ({ onWhySaasClick }) => {
         <div className="w-full md:w-1/3 md:sticky md:top-32 reveal mb-8 md:mb-0">
           <h2 className="text-3xl md:text-4xl font-bold mb-6 text-slate-900 leading-tight">Efikasna Organizacija</h2>
           <p className="text-slate-500 text-lg leading-relaxed mb-6">
-            SaaS rešenja nisu samo softver u oblaku — to je kičma vašeg organizacionog procesa koja omogućava sektorima da dišu istim ritmom. 
+            SaaS rešenja nisu samo softver u oblaku — to je centar vašeg organizacionog procesa koja omogućava sektorima da dišu istim ritmom. 
           </p>
           <p className="text-slate-400 mb-8">
             Kada svaki tim zna svoj sledeći korak, efikasnost raste, a operativni troškovi drastično padaju.

@@ -72,7 +72,7 @@ const SystemSelectionPage: React.FC<SystemSelectionPageProps> = ({ onConsultatio
       <div className="reveal delay-400 mt-20 bg-slate-900 rounded-[3rem] p-12 text-center text-white">
         <h3 className="text-2xl font-bold mb-6">Trebate pomoć pri izboru?</h3>
         <p className="text-slate-400 mb-8 max-w-2xl mx-auto">
-          Naš tim stručnjaka može sprovesti detaljnu analizu vaših procesa i preporučiti rešenje koje će najbolje podržati vaš rast.
+          Ako ne znate da li je ovo za vas mogu vam sprovesti detaljnu analizu vaših procesa i preporučiti rešenje koje će najbolje podržati vaš rast.
         </p>
         <button 
           onClick={onConsultationClick}

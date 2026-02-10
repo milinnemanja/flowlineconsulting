@@ -6,7 +6,7 @@ const BusinessMethodPage: React.FC = () => {
     <div className="pt-32 pb-24 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
       <header className="reveal mb-16 text-center">
         <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full border border-emerald-100 bg-emerald-50 text-emerald-600 text-xs font-bold mb-6">
-          <span>NAŠ PRISTUP</span>
+          <span>Moj PRISTUP</span>
         </div>
         <h1 className="text-4xl md:text-6xl font-extrabold text-slate-900 leading-tight mb-8">
           Način poslovanja
@@ -15,7 +15,7 @@ const BusinessMethodPage: React.FC = () => {
           Razvijamo prilagođena SaaS rešenja za kompanije koja unapređuju interne procese, omogućavaju potpunu kontrolu nad poslovanjem i obezbeđuju tačnost, efikasnost i dosledno praćenje svih operacija.
         </p>
         <p className="mt-6 text-slate-500 font-medium italic">
-          Naš pristup je zasnovan na razumevanju vašeg poslovanja, realnih potreba organizacije i dugoročne održivosti sistema.
+          Moj pristup je zasnovan na razumevanju vašeg poslovanja, realnih potreba organizacije i dugoročne održivosti sistema.
         </p>
       </header>
 
@@ -53,7 +53,7 @@ const BusinessMethodPage: React.FC = () => {
               "uvodimo promene postepeno i kontrolisano",
               "minimizujemo otpor zaposlenih prema novim alatima"
             ],
-            footer: "Naš cilj je efikasna digitalizacija bez narušavanja stabilnosti svakodnevnih operacija."
+            footer: "Moj cilj je efikasna digitalizacija bez narušavanja stabilnosti svakodnevnih operacija."
           },
           {
             num: "04",
@@ -69,7 +69,7 @@ const BusinessMethodPage: React.FC = () => {
           {
             num: "05",
             title: "Dugoročna saradnja, podrška i razvoj",
-            description: "Naš odnos sa klijentima je partnerski i dugoročan, prateći evoluciju vašeg biznisa:",
+            description: "Moj odnos sa klijentima je partnerski i dugoročan, prateći evoluciju vašeg biznisa:",
             items: [
               "tehnička podrška i redovno održavanje sistema",
               "unapređenja na osnovu povratnih informacija",
@@ -103,7 +103,7 @@ const BusinessMethodPage: React.FC = () => {
 
       <section className="reveal delay-200 bg-slate-900 rounded-[2rem] p-8 md:p-16 text-white overflow-hidden relative">
         <div className="absolute top-0 right-0 w-64 h-64 bg-emerald-500/10 blur-[100px] rounded-full"></div>
-        <h2 className="text-3xl font-bold mb-12 text-center">Zašto naš pristup</h2>
+        <h2 className="text-3xl font-bold mb-12 text-center">Zašto ovaj pristup</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {[
             { title: "Proces ispred tehnologije", desc: "Fokus na poslovne procese, ne samo na pisanje koda." },
