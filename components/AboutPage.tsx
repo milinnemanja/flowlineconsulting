@@ -49,9 +49,9 @@ const AboutPage: React.FC = () => {
                         src="Images/nemanja.png" 
                         alt="Nemanja Milin" 
                         className="w-full aspect-[4/5] object-cover rounded-[2rem] border-4 border-white shadow-2xl relative z-10 bg-slate-200"
-                        onError={(e) => {
+                        onError={(e: React.SyntheticEvent<HTMLImageElement>) => {
                           const target = e.target as HTMLImageElement;
-                          target.src = "https://picsum.photos/400/500?grayscale";
+                          target.src = "https://avatars.githubusercontent.com/u/117310934?v=4e";
                         }}
                     />
                     <div className="absolute -bottom-6 -right-6 bg-white p-6 rounded-2xl shadow-xl z-20 border border-slate-100">
