@@ -75,7 +75,7 @@ const App: React.FC = () => {
         ) : currentView === 'why-saas' ? (
           <WhySaasPage />
         ) : currentView === 'system-selection' ? (
-          <SystemSelectionPage />
+          <SystemSelectionPage onConsultationClick={() => navigateTo('contact')} />
         ) : currentView === 'about' ? (
           <AboutPage />
         ) : (

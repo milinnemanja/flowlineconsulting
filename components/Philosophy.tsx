@@ -1,7 +1,7 @@
 
-import React from 'react';
+import { FC } from 'react';
 
-const Philosophy: React.FC = () => {
+const Philosophy: FC = () => {
   const values = [
     { label: "Dugoročna rešenja", val: "a ne jednokratni projekti" },
     { label: "Automatizacija procesa", val: "koja štedi vreme i novac" },

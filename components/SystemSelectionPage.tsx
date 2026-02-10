@@ -1,7 +1,11 @@
 
 import React from 'react';
 
-const SystemSelectionPage: React.FC = () => {
+interface SystemSelectionPageProps {
+  onConsultationClick?: () => void;
+}
+
+const SystemSelectionPage: React.FC<SystemSelectionPageProps> = ({ onConsultationClick }) => {
   return (
     <div className="pt-32 pb-24 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
       <header className="reveal mb-16 text-center">
@@ -70,7 +74,10 @@ const SystemSelectionPage: React.FC = () => {
         <p className="text-slate-400 mb-8 max-w-2xl mx-auto">
           Naš tim stručnjaka može sprovesti detaljnu analizu vaših procesa i preporučiti rešenje koje će najbolje podržati vaš rast.
         </p>
-        <button className="px-10 py-4 bg-emerald-600 hover:bg-emerald-700 rounded-2xl font-bold text-lg transition-all">
+        <button 
+          onClick={onConsultationClick}
+          className="px-10 py-4 bg-emerald-600 hover:bg-emerald-700 rounded-2xl font-bold text-lg transition-all"
+        >
           Zakažite besplatne konsultacije
         </button>
       </div>
